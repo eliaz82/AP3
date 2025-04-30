@@ -17,7 +17,7 @@
     <input type="date" id="DATE" name="DATE" value="<?= date('Y-m-d') ?>" min="<?= date('Y-m-d') ?>" max="2026-12-31"
         required />
 
-    <label class="required" for="CONTACTS">Contacts</label>
+    <label class="required" for="CONTACTS">contacts</label>
     <p class="file-accept">Veuillez télécharger un fichier au format CSV.</p>
     <label class="custom-file-upload">
         <input type="file" name="CONTACTS" id="CONTACTS" accept=".csv" required>
