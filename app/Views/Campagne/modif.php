@@ -18,8 +18,7 @@
 
     <label class="required" for="start">Date</label>
 
-    <input type="date" id="DATE" name="DATE" value="<?= $campagne['DATE'] ?>" min="<?= $campagne['DATE'] ?>"
-        max="2026-12-31" />
+    <input type="date" id="DATE" name="DATE" value="<?= $campagne['DATE'] ?>" max="2026-12-31" />
 
     <label for="CONTACTS">Contacts</label>
     <p class="file-accept">Veuillez télécharger un fichier au format CSV.</p>
